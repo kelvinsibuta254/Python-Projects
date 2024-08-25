@@ -2,8 +2,8 @@ import mysql.connector
 
 connection = mysql.connector.connect(
     host = "localhost",
-    user = "root",
-    password = "byg6zmXp@#$%",
+    user = "",
+    password = "",
     database = "wsu"
 )
 #You need a cursor to execute sql queries which is an attribute of connection
