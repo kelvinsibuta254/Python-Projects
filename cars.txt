@@ -1,0 +1,5 @@
+__init__ method (constructor) that initializes attributes like make, model, year, and odometer_reading
+get_descriptive_name #returns a formatted string representing the car's get_descriptive_name
+read_odometer method prints the car's mileage
+update_odometer #updates the odometer reading with a new value
+increment_odometer method increments the odometer reading by a specified amount.

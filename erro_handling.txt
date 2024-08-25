@@ -1,0 +1,11 @@
+try:
+    #code that might potentially raise an exception
+except ExceptionType:
+    #code to handle the exception
+else:
+    code that executes if no exception occurs in try block
+finally:
+    code that always executes, regardless of exceptions
+    used for cleaning up resources like closing files
+
+You can also use the raise statement to explicitly raise an exception when encoutering an error condition in your code

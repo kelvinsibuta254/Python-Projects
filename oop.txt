@@ -1,0 +1,38 @@
+#programming paradigm: is a way of structuring your code to make sense
+#is based on the concept of objects which contain data and methods
+#Object is anything in our world that can be identified
+# e.g can identify a person, car, house, soil, phone, water body, IDE, 
+#OOP is based on the concepts of objects
+#objects have data e.g can be 3BD, Semi-detached
+#Representing real-world using code
+A person can have age, ID, name, phone number
+phone can has a name, price, color, battery size, and actions can be performed e.g shutdown
+To define an object, you need to use an initializer that is going to help us; called __init__
+__init__ gives attributes to our object (properties)
+i.e. for our objects to be assigned properties we need an __init__ method
+# A method in python is like a function in a class
+__init__ - accepts argumements
+self refers to current object
+e.g. if the object you're working with is mercedes; self will be mercedes
+
+after a blue print, create an object use a class name and assign it to a variable then
+you can provide the name, price and year
+then you can create a second car and provide the name, price and year
+#N/B: Classes are like plans; 
+use keyword and name
+
+__init__ is a method that defines an object
+a method in python is a function in a class
+To create a function use the def keyword and then the function name
+__init__ accepts parameters such as self e.g first object
+You use a variable then class  name, then parenthesis
+Then assign the attributes that define that object
+if you hard code a line it becomes static but you wanna make it dynamic
+
+#Object is an instance of a Classes
+#Attribute is a variable within a class
+#methods are functions within a class
+The convention in python is to call your objects self
+attribute is a property (data) that describes you
+
+Behaviors of a learner: click, Eat, Run, openIDE: should be defined in a class using a method (function in a class)

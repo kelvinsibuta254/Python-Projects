@@ -1,0 +1,17 @@
+## Why Use Custom Exceptions
+Specific Error Handling: handles errors unique to your applications
+Clarity and Readability: Provide clear and meaningful error messages, making your code more understandable and maintainable
+Modularity: Improved by encapsulating related error handling logic within custome exceptions
+
+To create a custom exception:
+    Define a new class that inherits from the base Exception class or its subclasses e.g. ValueError, TypeError e.t.c
+    Optionally, you can add custom attributes or methods to your exception class based on your requirements
+
+The function pick_item simulates usage of items from the inventory
+
+It checks if the requested item is available in the inventory. If the item is available in the inventory, it reduces the quantity accordingly
+If the item is out of stock, it raises the OutOfStockError custom exeption
+
+we use a try-except block to handle exceptions that may occur during the purchase process
+we attempt to pick items with different quantities
+If an OutOfStockError is raised, we catch it and print the custom error message using print(e)

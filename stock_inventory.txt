@@ -1,0 +1,5 @@
+We define a custom exception class OutOfStockError that inherits from the base Exception class
+The __init__ method initializes the exception with the name of the out-of-stock items
+The __str__ method specifies the error message to be displayed when the exception is raised
+
+a dictionary inventory represents available quantity of various item in our inventory
